@@ -1,0 +1,273 @@
+[
+  {
+    "pmid": "40253568",
+    "title": "EBMGP: a deep learning model for genomic prediction based on Elastic Net feature selection and bidirectional encoder representations from transformer's embedding and multi-head attention pooling.",
+    "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+    "pubdate": "2025 Apr 19",
+    "authors": [
+      "Ji L",
+      "Hou W",
+      "Zhou H",
+      "Xiong L",
+      "Liu C",
+      "Yuan Z",
+      "Li L"
+    ],
+    "abstract": "The monkeypox virus (MPXV) is currently spreading rapidly around the world, but the mechanisms by which it interacts with lupus nephritis (LN) are unknown. The aim of this study was to investigate the role and mechanism of lupus nephritis combined with monkeypox virus infection. The data comes from GEO and GeneCards.Through Limma and Weighted Gene Co-expression Network Analysis (WGCNA) analysis, differential expression genes (DEGs) and module genes were identified, and KEGG and GO enrichment analysis was carried out.In addition, a protein-protein interaction (PPI) network was constructed and LASSO regression was used to screen genes related to senescence. The diagnostic effectiveness was evaluated using a Nomogram and the receiver operating characteristic (ROC) curve and verified using GSE99967.Immune infiltration and gene set enrichment analysis (GSEA) Were also included in the study.In the end, miRNet was used to construct a miRNA-mRNA-TF network and screen targeted drugs through DGIdb. 5707 DEGs were identified in the lupus nephritis and 737 in the monkeypox data. WGCNA and Lasso regression analyses screened for three important targets (STAT1, ORC2, and GTF2B) .Predictive modeling and ROC of STAT1, ORC2 and GTF2B by Nomogram showed good diagnostic value .Immune infiltration analysis showed immune cell disorders and related pathway activation.The miRNA-mRNA-TF network covers 516 miRNAs and 15 transcription factors, and enrichment analysis shows that it plays an important role in senescence and inflammation.Potential Target Drugs Screened Include Guttiferone K And Silicon Phthalocyanine 4. This study identifies STAT1, ORC2, and GTF2B as key factors in cellular senescence and immune dysregulation associated with lupus nephritis and monkeypox infection, suggesting they may serve as important predictive targets.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40253260",
+    "title": "Automatic Classification of Strain in the Singing Voice Using Machine Learning.",
+    "journal": "Journal of voice : official journal of the Voice Foundation",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Liu Y",
+      "Reddy MK",
+      "Yagnavajjula MK",
+      "R\u00e4s\u00e4nen O",
+      "Alku P",
+      "Ik\u00e4valko T",
+      "Hakanp\u00e4\u00e4 T",
+      "\u00d6yry A",
+      "Laukkanen AM"
+    ],
+    "abstract": "Diagnosing Parkinson's disease (PD) typically relies on clinical evaluations, often detecting it in advanced stages. Recently, artificial intelligence has increasingly been applied to imaging for neurodegenerative disorders. This study aims to develop a diagnostic prediction model using T1-weighted magnetic resonance imaging (T1-MRI) data from the caudate and putamen in individuals with early-stage PD.This retrospective case-control study included 69 early-stage PD patients and 22 controls, recruited through the Parkinson's Progression Markers Initiative. T1-MRI scans were acquired using a 3-tesla system. 432 radiomic features were extracted from images of the segmented caudate and put&#xe2;men in an automated way. Feature selection was performed using Pearson's correlation and recursive feature elimination to identify the most relevant variables. Three machine learning algorithms-random forest (RF), support vector machine and logistic regression-were evaluated for diagnostic prediction effectiveness using a cross-validation method. The Shapley Additive Explanations technique identified the most significant features distinguishing between the groups. The metrics used to evaluate the performance were discrimination, expressed in area under the ROC curve (AUC), sensitivity and specificity; and calibration, expressed as accuracy.The RF algorithm showed superior performance with an average accuracy of 92.85%, precision of 100.00%, sensitivity of 86.66%, specificity of 96.65% and AUC of 0.93. The three most influential features were contrast, elongation, and gray-level non-uniformity, all from the putamen.Machine learning-based models can differentiate early-stage PD from controls using T1-weighted MRI radiomic features.Copyright &#xa9; 2025 The Association of University Radiologists. Published by Elsevier Inc. All rights reserved."
+  },
+  {
+    "pmid": "40252816",
+    "title": "Surface-Enhanced Raman Scattering (SERS) combined with machine learning enables accurate diagnosis of cervical cancer: from molecule to cell to tissue level.",
+    "journal": "Critical reviews in oncology/hematology",
+    "pubdate": "2025 Apr 17",
+    "authors": [
+      "Chen B",
+      "Gao J",
+      "Sun H",
+      "Chen Z",
+      "Qiu X"
+    ],
+    "abstract": "Genomic prediction (GP) aims to predict the breeding values of multiple complex traits, usually assumed to be multivariate normally distributed by the largely used statistical methods, thus imposing linear genetic relationships between traits. Although these methods are valuable for GP they do not account for potential nonlinear genetic relationships between traits in scenarios. For individual traits, this oversight may minimally affect prediction accuracy, but it can limit genetic progress when selection involves multiple traits. Deep learning (DL) offers a promising alternative for capturing nonlinear genetic relationships due to its ability to identify complex patterns without prior assumptions about the data structure. We proposed a novel hybrid DLGBLUP model which uses the output of the traditional GBLUP, and enhances its predicted genetic values (PGV) by accounting for nonlinear genetic relationships between traits using DL. We simulated data with linear and nonlinear genetic relationships between traits in order to verify whether DLGBLUP was able to identify nonlinearity when present and avoid inducing it when absent. We found that DLGBLUP consistently provided more accurate PGV for traits simulated with strong nonlinear genetic relationships, accurately identifying these relationships. Over 7 generations of selection, a greater genetic progress was achieved with PGV that accounted for nonlinear relationships (DLGBLUP), compared with GBLUP. When applied to a real dataset from the French Holstein dairy cattle population, DLGBLUP detected nonlinear genetic relationships between pairs of traits, such as conception rate and protein content, and somatic cell count and fat yield, although, no significant increase in prediction accuracy was observed. The integration of DL into GP enabled the modeling of nonlinear genetic relationships between traits, a possibility not previously discussed, given the linear nature of GBLUP. The detection of nonlinear genetic relationships between traits in the French Holstein population when using DLGBLUP indicates the presence of such relationships in real breeding data, suggesting that it may be relevant to further explore nonlinear relationships. This possibility of nonlinear genetic relationships between traits offers a different perspective into multitrait evaluations, with potential to further improve selection strategies in commercial livestock breeding programs. This is particularly relevant when integrating new traits into multitrait evaluations or incorporating new subpopulations, which may introduce different forms of nonlinearity. Finally, it is shown that DL can be used as a complement to the statistical methods deployed in routine genetic evaluations, rather than as an alternative, by enhancing their performance.The Authors. Published by Elsevier Inc. on behalf of the American Dairy Science Association&#xae;. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+  },
+  {
+    "pmid": "40252472",
+    "title": "Accelerating autism spectrum disorder care: A rapid review of data science applications in diagnosis and intervention.",
+    "journal": "Asian journal of psychiatry",
+    "pubdate": "2025 Apr 13",
+    "authors": [
+      "Ganggayah MD",
+      "Zhao D",
+      "Liew EJY",
+      "Mohd Nor NA",
+      "Paramasivam T",
+      "Lee YY",
+      "Abu Hasan NI",
+      "Shaharuddin S"
+    ],
+    "abstract": "Nowadays, energy conservation is a top priority for sustainable societies, which focus on environmental and economic sustainability to address fossil fuel scarcity, climate change, and increasing environmental pollution. Therefore, planning for energy management and forecasting energy consumption is essential, especially with societies striving to achieve sustainable development. Predictive distribution plans for consumers and utilities can be improved using data mining-based models, the most common of which are big data-based Machine Learning (ML) models. This work presents a comprehensive ML model that combines the use of MATLAB for data reduction using Principal Component Analysis (PCA), and one of the latest data mining tools Orange 3 to build a classification model consisting of four basic classifiers: AdaBoost, Logistic Regression (LR), Naive Bayes (NB), and Stochastic Gradient Descent (SGD). The model relies on a dataset of energy consumption of different devices according to the Kaggle platform, where the energy consumption data was collected every 10&#xa0;min and over approximately 4.5 months using m-bus energy meters. The model was tested based on the confusion matrix, and the results showed that AdaBoost outperformed other models in predicting energy consumption, with 100&#xa0;% accuracy. In addition, LR, NB, and SGD had classification accuracy of 99.8&#xa0;%, 99.7&#xa0;%, and 99.4&#xa0;%, respectively.Copyright &#xa9; 2025 Elsevier Ltd. All rights reserved."
+  },
+  {
+    "pmid": "40252301",
+    "title": "Updated perspectives on visceral pleural invasion in non-small cell lung cancer: A propensity score-matched analysis of the SEER database.",
+    "journal": "Current problems in cancer",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Liu J",
+      "Wang Y",
+      "Zhou X",
+      "Reng M",
+      "Xiang Z",
+      "Chang R",
+      "Hao W",
+      "Sun X",
+      "Yang Y"
+    ],
+    "abstract": "Investigate the association between Oral Glucose Tolerance Test (OGTT) after in vitro fertilization (IVF) treatment and adverse maternal and neonatal outcomes in twin pregnancies.This retrospective study encompassed 2,541 twin pregnancies conceived through IVF treatment. Adverse maternal and neonatal outcomes were compared across different subgroups based on individual and combined OGTT classifications. A Spearman correlation regression model examined associations between OGTT levels at different time points and parameters such as gestational age, birth weight, and length. Subsequently, a Logistic regression model with restricted cubic splines (RCS) explored the relationships between OGTT levels at different time points and adverse pregnancy outcomes. Ultimately, nine types of machine learning models were developed using OGTT glucose values at different times to predict the risk of adverse pregnancy outcomes.In subgroup analysis based on individual OGTT diagnosis, three time points were examined: fasting glucose (OGTT0), 1-hour post-glucose (OGTT1), and 2-hour post-glucose (OGTT2). OGTT0 &#x2265;&#x2009;5.1 mmol/L was significantly associated with increased risks of ICP and neonatal hypoglycemia (p&#x2009;= 0.031; p&#x2009;= 0.022). OGTT1 &#x2265;&#x2009;10 mmol/L correlated with higher risks of ICP and neonatal hyperbilirubinemia (p&#x2009;= 0.001; p&#x2009;= 0.002). OGTT2 &#x2265;&#x2009;8.5 mmol/L was also linked to neonatal hyperbilirubinemia (p&#x2009;&lt; 0.001). In combined impaired OGTT subgroups, the impaired fasting glucose (IFG) group had a higher incidence of neonatal hypoglycemia than the impaired glucose tolerance (IGT) group and IFG &amp; IGT group, but a lower risk of neonatal hyperbilirubinemia. OGTT2 was negatively correlated with gestational age at delivery (&#x3b2; = - 0.08, p&#x2009;= 0.018), and both OGTT1 and OGTT2 were negatively correlated with neonatal birth weight (&#x3b2; = - 10.54, p&#x2009;= 0.008; &#x3b2; = - 15.04, p&#x2009;&lt; 0.001), as well as OGTT2 with birth length (&#x3b2; = - 0.16, p&#x2009;= 0.009). The RCS logistic regression model indicated that the increase OGTT values was associated with the ICP risk, and the relationship between OGTT2 and neonatal hyperbilirubinemia was U-shaped. Among the various machine learning models predicting adverse outcomes, RandomForest exhibited superior performance.OGTT values in twin pregnancies under IVF treatment are closely linked to adverse maternal and neonatal outcomes, with post-load glucose levels potentially serving as an early biomarker for identifying poorer outcomes. The inflection points in the RCS suggest a new indication point for the association between OGTT and adverse pregnancy outcomes in twin pregnancies conceived through IVF.&#xa9; 2025. The Author(s), under exclusive licence to Italian Society of Endocrinology (SIE)."
+  },
+  {
+    "pmid": "40252145",
+    "title": "QMGBP-DL: a deep learning and machine learning approach for quantum molecular graph band-gap prediction.",
+    "journal": "Molecular diversity",
+    "pubdate": "2025 Apr 19",
+    "authors": [
+      "Abbassi O",
+      "Ziti S"
+    ],
+    "abstract": "Mild cognitive impairment (MCI) and freezing of gait (FOG) are two common symptoms in Parkinson's disease (PD).The objectives were to test the strength of association of fist-palm test (FiPaT), a nonverbal motor test, with both MCI and FOG in PD and investigate the predictive ability of FiPaT in the identification of PD patients with MCI or FOG.We enrolled 74 PD patients: 47 of 74 patients had MCI (PD&#x2009;+&#x2009;MCI), 27 of 74 were cognitively unimpaired (PD-NC), 29 of 74 presented FOG (PD&#x2009;+&#x2009;FOG), and 45 of 74 were without FOG (PD-FOG). We performed univariate statistical analysis, including binary logistic regressions, to determine the variables that distinguish PD + MCI from PD-NC and PD +&#x2009;FOG from PD-FOG. We implemented machine learning algorithms with feature selection, using clinical-demographic features and FiPaT scores as input variables, and the presence of MCI or FOG as features to predict.FiPaT total error and topography errors (P&#x2009;=&#x2009;0.049 and P&#x2009;=&#x2009;0.026) significantly discriminated PD&#x2009;+&#x2009;MCI and PD-NC, whereas disease duration (P&#x2009;=&#x2009;0.039), FiPaT total error (P&#x2009;=&#x2009;0.026), and attention errors (P&#x2009;=&#x2009;0.046) significantly discriminated PD&#x2009;+&#x2009;FOG and PD-FOG. Applying machine learning analysis, the models reached an accuracy of 87.4% for MCI and 78.2% for FOG.A worse performance on FiPaT and its subscores is closely related to MCI and FOG in PD. The early identification of MCI and FOG is of particular interest as both are important risk factors for PD dementia. Moreover, the association between FiPaT and FOG strengthens the close relationship between motor system, namely gait, and higher-order cognitive functions.&#xa9; 2025 The Author(s). Movement Disorders Clinical Practice published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society."
+  },
+  {
+    "pmid": "40252133",
+    "title": "Optimizing in-hospital mortality predictive models in ACS patients: QTc prolongation and machine learning approaches.",
+    "journal": "The Egyptian heart journal : (EHJ) : official bulletin of the Egyptian Society of Cardiology",
+    "pubdate": "2025 Apr 19",
+    "authors": [
+      "Rajakumar HK"
+    ],
+    "abstract": "Mild cognitive impairment (MCI) and freezing of gait (FOG) are two common symptoms in Parkinson's disease (PD).The objectives were to test the strength of association of fist-palm test (FiPaT), a nonverbal motor test, with both MCI and FOG in PD and investigate the predictive ability of FiPaT in the identification of PD patients with MCI or FOG.We enrolled 74 PD patients: 47 of 74 patients had MCI (PD&#x2009;+&#x2009;MCI), 27 of 74 were cognitively unimpaired (PD-NC), 29 of 74 presented FOG (PD&#x2009;+&#x2009;FOG), and 45 of 74 were without FOG (PD-FOG). We performed univariate statistical analysis, including binary logistic regressions, to determine the variables that distinguish PD + MCI from PD-NC and PD +&#x2009;FOG from PD-FOG. We implemented machine learning algorithms with feature selection, using clinical-demographic features and FiPaT scores as input variables, and the presence of MCI or FOG as features to predict.FiPaT total error and topography errors (P&#x2009;=&#x2009;0.049 and P&#x2009;=&#x2009;0.026) significantly discriminated PD&#x2009;+&#x2009;MCI and PD-NC, whereas disease duration (P&#x2009;=&#x2009;0.039), FiPaT total error (P&#x2009;=&#x2009;0.026), and attention errors (P&#x2009;=&#x2009;0.046) significantly discriminated PD&#x2009;+&#x2009;FOG and PD-FOG. Applying machine learning analysis, the models reached an accuracy of 87.4% for MCI and 78.2% for FOG.A worse performance on FiPaT and its subscores is closely related to MCI and FOG in PD. The early identification of MCI and FOG is of particular interest as both are important risk factors for PD dementia. Moreover, the association between FiPaT and FOG strengthens the close relationship between motor system, namely gait, and higher-order cognitive functions.&#xa9; 2025 The Author(s). Movement Disorders Clinical Practice published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society."
+  },
+  {
+    "pmid": "40251545",
+    "title": "Applications of machine learning approaches for pediatric asthma exacerbation management: a systematic review.",
+    "journal": "BMC medical informatics and decision making",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Zhou C",
+      "Shuai L",
+      "Hu H",
+      "Ung COL",
+      "Lai Y",
+      "Fan L",
+      "Du W",
+      "Wang Y",
+      "Li M"
+    ],
+    "abstract": "This study aimed to identify key predictors for the severity of High Altitude Pulmonary Edema (HAPE) to assist clinicians in promptly recognizing severely affected patients in the emergency department, thereby reducing associated mortality rates. Multinomail logistic regression, random forest, and decision tree methods were utilized to determine important predictor variables and evaluate model performance. A total of 508 patients diagnosed with HAPE were included in the study, with 53 variables analyzed. Lung rales, sputum sputuming, heart rate, and oxygen saturation were identified as the most relevant predictors for the LASSO model. Subsequently, Multinomail logistic regression, decision tree, and random forest models were trained and evaluated using these factors on a test set. The random forest model showed the highest performance, with an accuracy of 77.94%, precision of 70.27%, recall of 68.22%, and F1 score of 68.96%, outperforming the other models. Further analysis revealed significant differences in predictive capabilities among the models for HAPE patients at varying severity levels. The random forest model demonstrated high predictive accuracy across all severity levels of HAPE, particularly excelling in identifying severely ill patients with an impressive AUC of 0.86. The study assessed the reliability and effectiveness of the HAPE severity scoring model by validating Multinomail logistic regression and random forest models. This study introduces a valuable screening tool for categorizing the severity of HAPE, aiding healthcare providers in recognizing individuals with severe HAPE, enabling prompt treatment and the formulation of suitable therapeutic approaches.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251507",
+    "title": "Decoding the Competing Effects of Dynamic Solvation Structures on Nuclear Magnetic Resonance Chemical Shifts of Battery Electrolytes via Machine Learning.",
+    "journal": "Journal of the American Chemical Society",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "You Q",
+      "Sun Y",
+      "Wang F",
+      "Cheng J",
+      "Tang F"
+    ],
+    "abstract": "Colorectal cancer is among the most prevalent and deadliest cancers. Early prediction of metastasis in patients with colorectal cancer is crucial in preventing it from the advanced stages and enhancing the prognosis among these patients. So far, previous studies have been conducted to predict metastasis in colorectal cancer patients using clinical data. The current research attempts to leverage a combination of demographic, lifestyle, nutritional, and clinical factors, such as diagnostic and therapeutical factors, to construct an ML model with more predictive insights and generalizability than previous ones.In this retrospective study, we used 1156 CRC patients referred to the Masoud internal clinic in Tehran City from January 2017 to December 2023. The chosen machine learning algorithms, including LightGBM, XG-Boost, random forest, artificial neural network, support vector machine, decision tree, K-Nearest Neighbor and logistic regression, were utilized to establish prediction models for predicting metastasis among colorectal cancer patients. We also assessed features based on the best-performing model to improve clinical usability. To show the generalizability of the established prediction model for predicting CRC metastasis, we leveraged the data of 115 CRC patients from Imam Khomeini Hospital in Sari City. We assessed the predictive ability of LightGBM as the best-performing model based on external data.The LightGBM model with a PPV of 97.32%, NPV of 84.67%, sensitivity of 83.14%, specificity of 93.14%, accuracy of 88.14%, F1-score of 87.51%, and an AU-ROC of 0.9 [Formula: see text]0.01 obtained satisfactory performance for prediction purposes on this topic. Factors including the history of IBD, family history of CRC, number of lymph nodes involved, fruit intake, and tumor size were considered as more strengthful predictors for metastasis in colorectal cancer and clinical usability. The external validation cohort showed a PPV of 0.8, NPV of 0.85, sensitivity of 0.78, specificity of 0.86, accuracy of 0.834, F1-score of 0.795, and AU-ROC of 0.77[Formula: see text]0.03, demonstrating satisfactory generalizability when leveraging external data from other clinical settings.The current empirical results indicated that LighGBM has predictive competency that can be leveraged by physicians in clinical environments for early prediction of metastasis and enhanced prognosis in patients with colorectal cancer.Not applicable.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251476",
+    "title": "GRLGRN: graph representation-based learning to infer gene regulatory networks from single-cell RNA-seq data.",
+    "journal": "BMC bioinformatics",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Wang K",
+      "Li Y",
+      "Liu F",
+      "Luan X",
+      "Wang X",
+      "Zhou J"
+    ],
+    "abstract": "Lymphovascular invasion (LVI) is a significant histopathological marker associated with poor prognosis in patients. However, there is a notable lack of reliable, non-invasive preoperative tools to predict LVI accurately.To develop and validate a computed tomography (CT)-based classification and regression tree (CART) model for the preoperative prediction of LVI in patients with clinical stage IA lung adenocarcinoma (LUAD).This multicenter cohort study recruited patients who underwent resection and had a preoperative CT examination. An internal cohort (n&#x2009;=&#x2009;525) is included to construct the LVI classification and regression tree model (LVI-CART). An external cohort (n&#x2009;=&#x2009;115) and a public cohort (n&#x2009;=&#x2009;57) are then used to fully validate the predictive performance of the LVI-CART. Kaplan-Meier survival analysis and univariable Cox regression analyses were conducted to investigate the relationship between predicted LVI status and survival.The LVI-CART model includes two features, diameter and nodule type, and shows acceptable performance in predicting pathological LVI, with area under the curve values of 0.719, 0.756, and 0.835 in the internal validation set, external validation set and test set, respectively. A predicted LVI positive relative to the median value in the outcomes cohort was found to be independently associated with 1-, 3-year RFS and 1-, 3-, 5-year OS (all p-values&#x2009;&lt;&#x2009;0.05).The LVI-CART model could be used to preoperatively predict LVI and identify patients with poor prognosis in clinical IA LUAD. The model is like to be simple and easily applicable to risk stratification.Question Lymphovascular invasion is a critical histopathological indicator of poor prognosis, necessitating reliable non-invasive preoperative predictive tools. Findings The classification and regression tree model for predicting lymphovascular invasion (LVI-CART) model demonstrates adequate predictive ability for pathological LVI, portending poor recurrence-free and overall survival. Clinical relevance The LVI-CART model provides clinicians with an easy-to-use method for preoperative identification of patients with clinical stage IA lung adenocarcinoma who are LVI-positive. It also provides a framework for a comprehensive assessment of patient survival risk.&#xa9; 2025. The Author(s), under exclusive licence to European Society of Radiology."
+  },
+  {
+    "pmid": "40251442",
+    "title": "Predicting lymphovascular invasion in stage IA lung adenocarcinoma: a CT-based classification and regression tree model.",
+    "journal": "European radiology",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Chen L",
+      "Su Y",
+      "Huang Y",
+      "Tao J",
+      "Huang X",
+      "Li K",
+      "Liu D",
+      "Zhang J"
+    ],
+    "abstract": "Waste marble, an industrial byproduct generated from marble cutting and polishing processes, can be effectively utilized as a partial replacement in concrete mixtures. Incorporating waste marble in concrete not only addresses environmental concerns related to marble waste disposal but also contributes to the sustainability of construction materials. Using machine learning (ML) to predict the impact of waste marble on the compressive strength of traditional concrete offers several advantages over repeated laboratory experiments. ML offers a powerful alternative to costly and time-consuming laboratory experiments, enabling faster and more sustainable exploration of the potential of waste marble in improving concrete's compressive strength. This research has focused on evaluating the impact of waste marble on the compressive strength of traditional concrete using machine learning (ML). Advanced ML techniques such as the Group Methods Data Handling Neural Network (GMDH-NN), Support Vector Regression (SVR), K-Nearest Neighbors (kNN) and Adaptive Boosting (AdaBoost) have been applied in this research work. The GMDH-NN model was created using GMDH Shell 3.0 software, while AdaBoost, SVR and kNN models were created using \"Orange Data Mining\" software version 3.36. Error indices such as the sum of squared error (SSE), mean absolute error (MAE), mean squared error (MSE), root mean squared error (RMSE), and Error (%), and performance metrics such as Accuracy % and the R2 between predicted and calculated compressive strength parameters were used to evaluate the overall behavior of the models. Finally, the Hoffman sensitivity analysis procedure was applied to determine the individual relative impact of the input variables on the output. At the end of the processes, a total of 1135 waste marble concrete entries were collected containing constituents such as the cement density (C), waste marble (WM), fine aggregate (FAg), coarse aggregate (CAg), water (W), superplasticizer (PL) and curing age (Age) used as input variables of the waste marble concrete model. The records were divided into training set (900 records&#x2009;=&#x2009;80%) and validation set (235 records&#x2009;=&#x2009;20%) following standard partitioning pattern reported in the literature. The kNN and AdaBoost, with SSE of 1408.5 MPa2 and 1397 MPa2 respectively and a tie Accuracy of 95.5% and R2 of 0.985 showed the best models suggesting excellent model performance while GMDH-NN showed the worst. Conversely, RF balances accuracy and model complexity, making it a practical alternative to kNN and AdaBoost. And lastly, Age, Coarse Aggregates, Water, and Plasticizer play the most significant roles in determining the compressive strength, while Cement, Waste Marble, and Fine Aggregates have comparatively smaller impacts. However, considering the standard proportion required for waste marble powder to replace cement, it showed a remarkable influence on the behavior of the concrete thus a recommended potential for its used as replacement for cement.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251349",
+    "title": "AI analysis for ejection fraction estimation from 12-lead ECG.",
+    "journal": "Scientific reports",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Devkota A",
+      "Prajapati R",
+      "El-Wakeel A",
+      "Adjeroh D",
+      "Patel B",
+      "Gyawali P"
+    ],
+    "abstract": "The changes in phase viscosity at the oil-brine interface due to surfactant addition are critical under practical reservoir conditions. This study develops a computational, data-driven model to accurately estimate and predict peak phase viscosity in microemulsion systems at dynamic environments. Using equilibrium molecular dynamics (MD) simulations, we investigate a decane-sodium dodecyl sulfate (SDS)-brine system, generating viscosity data as of temperatures, pressures, surfactant concentrations, and salinities. The data, computed via the Einstein relation and Green-Kubo formula, provides robust training and test datasets for model development. Various machine learning (ML) based regression algorithms are employed on our dataset to train and fit the model. This study aims to compare the accuracy and correlation coefficients of these models, selecting the most precise model for predicting microemulsion phase viscosity under diverse reservoir conditions. Support Vector Regression (SVR) outperformed other models with an R2 of 0.978 and 0.963 and mean absolute errors of 0.059 and 0.072 for training and test datasets, respectively. Unlike traditional empirical viscosity correlations, this model incorporates physics-based relationships, enhancing its adaptability to varying reservoir conditions. The proposed model accurately predicts microemulsion phase viscosity, including peak viscosity locations, across pressures, temperatures, salinities, and surfactant concentration. This work facilitates precise viscosity estimation, improving recovery efficiency under reservoir conditions.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251335",
+    "title": "A data driven predictive viscosity model for the microemulsion phase.",
+    "journal": "Scientific reports",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Talapatra A",
+      "Nojabaei B",
+      "Khodaparast P"
+    ],
+    "abstract": "This study aimed to identify distinct clusters of diabetic macular edema (DME) patients with differential anti-vascular endothelial growth factor (VEGF) treatment outcomes using an unsupervised machine learning (ML) approach based on radiomic features extracted from pre-treatment optical coherence tomography (OCT) images. Retrospective data from 234 eyes with DME treated with three anti-VEGF therapies between January 2020 and March 2024 were collected from two clinical centers. Radiomic analysis was conducted on pre-treatment OCT images. Following principal component analysis (PCA) for dimensionality reduction, two unsupervised clustering methods (K-means and hierarchical clustering) were applied. Baseline characteristics and treatment outcomes were compared across clusters to assess clustering efficacy. Feature selection employed a three-stage pipeline: exclusion of collinear features (Pearson's r&#x2009;&gt;&#x2009;0.8); sequential filtering through ANOVA (P&#x2009;&lt;&#x2009;0.05) and Boruta algorithm (500 iterations); multivariate stepwise regression (entry criteria: univariate P&#x2009;&lt;&#x2009;0.1) to identify outcome-associated predictors. From 1165 extracted radiomic features, four distinct DME clusters were identified. Cluster 4 exhibited a significantly lower incidence of residual/recurrent DME (RDME) (34.29%) compared to Clusters 1-3 (P&#x2009;=&#x2009;0.003, P&#x2009;=&#x2009;0.005 and P&#x2009;=&#x2009;0.002, respectively). This cluster also demonstrated the highest proportion of eyes (71.43%) with best-corrected visual acuity (BCVA) exceeding 20/63 (P&#x2009;=&#x2009;0.003, P&#x2009;=&#x2009;0.005 and P&#x2009;=&#x2009;0.002, respectively). Multivariate analysis identified logarithm_gldm_DependenceVariance as an independent risk factor for RDME (OR 1.75, 95% CI 1.28-2.40; P&#x2009;&lt;&#x2009;0.001), while Wavelet-LH_Firstorder_Mean correlated with worse visual outcomes (OR 8.76, 95% CI 1.22-62.84; P&#x2009;=&#x2009;0.031). Unsupervised ML leveraging pre-treatment OCT radiomics successfully stratifies DME eyes into clinically distinct subgroups with divergent therapeutic responses. These quantitative features may serve as non-invasive biomarkers for personalized outcome prediction and retinal pathology assessment.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251269",
+    "title": "Arch-Eval benchmark for assessing chinese architectural domain knowledge in large language models.",
+    "journal": "Scientific reports",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Wu J",
+      "Jiang M",
+      "Fan J",
+      "Li S",
+      "Xu H",
+      "Zhao Y"
+    ],
+    "abstract": "This primary research paper emphasizes cross-validation, where data samples are reshuffled in each iteration to form randomized subsets divided into n folds. This method improves model performance and achieves higher accuracy than the baseline model. The novelty lies in the data preparation process, where numerical features were imputed using the mean, categorical features were imputed using chi-square methods, and normalization was applied. This research study involves transforming the original datasets and comparative model analysis of four Logistic Regression (LR), Support Vector Machine (SVM), K-Nearest Neighbor (KNN), and Random Forest (RF) cross-validation methodologies to heart disease open datasets. The objective is to easily identify the average accuracy of model predictions and subsequently make recommendations for model selection based on data preprocessing cross-validation model increased (5 to 14%) more than baseline model for best model selection. From comparing each model's accuracy scores, it is found that the logistic regression and k-nearest neighbor models achieved the highest accuracy of 81% among the four models when single accuracy is a concern. However, the random forest model summary statistics attained an F1 score of 95%, precision (96%), and recall (97%), indicating the highest overall macro accuracy score. These findings can be further compared using learning curve validation. Conversely, the logistic regression model exhibited the lowest accuracy of 84% among the four machine learning models. However, this research does not cover hyperparameter optimization, which could potentially improve model performance.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251245",
+    "title": "Artificial intelligence models utilize lifestyle factors to predict dry eye related outcomes.",
+    "journal": "Scientific reports",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Graham AD",
+      "Wang J",
+      "Kothapalli T",
+      "Ding JE",
+      "Tasho H",
+      "Molina A",
+      "Tse V",
+      "Chang SM",
+      "Yu SX",
+      "Lin MC"
+    ],
+    "abstract": "The emergence of social media platforms led to the sharing of ideas, thoughts, events, and reviews. The shared views and comments contain people's sentiments and analysis of these sentiments has emerged as one of the most popular fields of study. Sentiment analysis in the Urdu language is an important research problem similar to other languages, however, it is not investigated very well. On social media platforms like X (Twitter), billions of native Urdu speakers use the Urdu script which makes sentiment analysis in the Urdu language important. In this regard, an ensemble model RRLS is proposed that stacks random forest, recurrent neural network, logistic regression (LR), and support vector machine (SVM). The Internet Movie Database (IMDB) movie reviews and Urdu tweets are examined in this study using Urdu sentiment analysis. The Urdu hack library was used to preprocess the Urdu data, which includes preprocessing operations including normalizing individual letters, merging them, including spaces, etc. concerning punctuation. The problem of accurately encoding Urdu characters and replacing Arabic letters with their Urdu equivalents is fixed by the normalization module. Several models are adopted in this study for extensive evaluation of their accuracy for Urdu sentiment analysis. While the results promising, among machine learning models, the SVM and LR attained an accuracy of 87%, according to performance criteria such as F-measure, accuracy, recall, and precision. The accuracy of the long short-term memory (LSTM) and bidirectional LSTM (BiLSTM) was 84%. The suggested ensemble RRLS model performs better than other learning algorithms and achieves a 90% accuracy rate, outperforming current methods. The use of the synthetic minority oversampling technique (SMOTE) is observed to improve the performance and lead to 92.77% accuracy.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251238",
+    "title": "Ensemble stacked model for enhanced identification of sentiments from IMDB reviews.",
+    "journal": "Scientific reports",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Azim K",
+      "Tahir A",
+      "Shahroz M",
+      "Karamti H",
+      "Vazquez AA",
+      "Vistorte AR",
+      "Ashraf I"
+    ],
+    "abstract": "Predicting pressure drop in multiphase flow is crucial for optimizing tubing size, wellhead pressure (WHP), completion design, cost management, and other production-phase objectives. While various correlations and models exist to calculate pressure drops, their accuracy diminishes significantly when applied to outlier datasets beyond their intended parameter ranges. Not only that, as reported by many studies, most of the empirical correlations and mechanistic models have an error, which is quite high and intolerable. This study introduces a novel Adaptive Neuro-Fuzzy Inference System (ANFIS) model for accurately predicting pressure drops in vertical wells carrying multiphase fluids. A comprehensive dataset of 335 experimental records was compiled from diverse sources to encompass a wide range of parameters, ensuring the robustness of the proposed model. Key input parameters include WHP, oil rate, water rate, gas rate, inner diameter, surface temperature, and flow length. The ANFIS model was rigorously evaluated using different methods, such as cross plot, error distribution, Kruskal-Wallis (KW) test, error boxplot and violin graphs, Confidence Interval (CI), and statistical error metrics. The latter includes Average Absolute Percentage Error (AAPE), Root Mean Square Error (RMSE), and the coefficient of determination (R&#xb2;) to prove the ANFIS model's performance. The proposed ANFIS model was compared with the most commonly used published models. Results demonstrate that the ANFIS model outperforms existing methods, achieving an AAPE of 2.92%, an RMSE of 1.9638%, and an R&#xb2; of 0.9645. KW test, error boxplot, violin graphs, and CI results indicated that the best model for predicting pressure drops is the proposed ANFIS model. These findings establish the ANFIS model as a reliable and superior tool for predicting pressure drops in vertical wells with multiphase flow, offering significant advancements in design accuracy and operational efficiency.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251198",
+    "title": "A simulation-driven computational framework for adaptive energy-efficient optimization in machine learning-based intrusion detection systems.",
+    "journal": "Scientific reports",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Ranpara R",
+      "Alsalman O",
+      "Kumar OP",
+      "Patel SK"
+    ],
+    "abstract": "Cervical cancer, a prevalent gynecological malignancy, poses significant threats to women's health. Despite advances in treatment modalities, radiotherapy remains a cornerstone in managing cervical cancer. However, radiotherapy-induced complications, such as radiation proctitis, present substantial diagnostic and prognostic challenges. Accurate diagnosis are crucial for optimizing treatment strategies and improving patient outcomes. Deep learning has shown remarkable success in medical image segmentation, aiding clinicians in assessing patient conditions. In the other hand, radiomics excels in extracting diagnostically valuable features from medical images but requires extensive manual annotation and often lacks generalizability. Therefore, combining the strengths of deep learning and radiomics is pivotal in addressing these challenges. In this study, we propose a novel paradigm that leverages deep learning models for initial segmentation, followed by detailed radiomics analysis. Specifically, we utilize the Transformer-based SAM-Med2D model to extract visual features from CT images of cervical cancer patients. We apply T-tests and Lasso regression to identify features most correlated with radiation proctitis and build predictive models using logistic regression, random forest, and naive Gaussian Bayesian algorithms. Experimental results demonstrate that our method effectively extracts CT imaging features and exhibits excellent performance in diagnosis radiation proctitis. This approach not only enhances predictive accuracy but also provides a valuable tool for personalizing treatment plans and improving patient outcomes in cervical cancer radiotherapy.&#xa9; 2025. The Author(s)."
+  },
+  {
+    "pmid": "40251184",
+    "title": "A prediction method for radiation proctitis based on SAM-Med2D model.",
+    "journal": "Scientific reports",
+    "pubdate": "2025 Apr 18",
+    "authors": [
+      "Zhang N",
+      "Ling H",
+      "Zhang W",
+      "Zhang M"
+    ],
+    "abstract": "Sepsis related acute respiratory distress syndrome (ARDS) is a common and serious disease in clinic. Accurate prediction of in-hospital mortality of patients is crucial to optimize treatment and improve prognosis under the new global definition of ARDS. Our study aimed to use machine learning models to develop models that can effectively predict the in-hospital mortality of patients with sepsis related ARDS, calculate the mortality, and to identify related risk factors under the new global definition of ARDS. Based on MIMIC database, our study included 3470 first-time admission records of patients with sepsis related ARDS. After excluding 4 patients under the age of 18, 75 patients with less than 24&#xa0;h stay in ICU, and 5 cases with missing indicators&#x2009;&gt;&#x2009;30%, finally 3386 cases were retained. The variance inflation factor (VIF) analysis was used to test the collinearity of the explanatory variables. The data were divided into the training set and the test set according to the ratio of 7:3. Six models, extreme gradient boosting (XGBoost), light gradient boosting (LightGBM), random forest (RF), classification and regression tree (CART), naive bayes (NB) and logistic regression (LR), were designed for training and testing. In the training set, XGBoost (AUROC&#x2009;=&#x2009;0.951, 95% CI 0.942-0.961), LR (AUROC&#x2009;=&#x2009;0.835, 95% CI 0.817-0.854), RF (AUROC&#x2009;=&#x2009;1.0, 95% CI 1.0-1.0), LightGBM (AUROC&#x2009;=&#x2009;1.0, 95% CI 1.0-1.0), CART (AUROC&#x2009;=&#x2009;0.831, 95% CI 0.811-0.852), NB (AUROC&#x2009;=&#x2009;0.793, 95% CI 0.772-0.814). In the test set, XGBoost (AUROC&#x2009;=&#x2009;0.833, 95% CI 0.804-0.861), LR (AUROC&#x2009;=&#x2009;0.82695% CI 0.796-0.856), RF (AUROC&#x2009;=&#x2009;0.846, 95% CI 0.818-0.874), LightGBM (AUROC&#x2009;=&#x2009;0.827, 95% CI 0.798-0.856), CART (AUROC&#x2009;=&#x2009;0.753, 95% CI 0.718-0.787), NB (AUROC&#x2009;=&#x2009;0.799, 95% CI 0.768-0.831). The RF model has the best performance on the test set. Further analyze the feature importance ranking and partial dependence plots of random forest model. Acute physiology and chronic health evaluation III (APACHE III), bicarbonate, anion gap and non-invasive blood pressure systolic were identified as the four most important risk characteristics. In this study, a variety of machine learning models have been successfully constructed to predict the in-hospital mortality of patients with sepsis related ARDS, among which the RF model performs well. Key risk factors identified include APACHE III, bicarbonate, anion gap and non-invasive blood pressure systolic. The identification of these factors helps clinicians to assess patients' conditions more accurately and develop personalized treatment plans, thereby improving the survival rate and prognosis quality of patients under the new global definition of ARDS.&#xa9; 2025. The Author(s)."
+  }
+]

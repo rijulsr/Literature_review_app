@@ -1,0 +1,331 @@
+[
+  {
+    "title": "Development and external validation of a machine learning model to predict bronchopulmonary dysplasia using dynamic factors.",
+    "abstract": "We hypothesized that incorporating postnatal dynamic factors would enhance the prediction accuracy of bronchopulmonary dysplasia in preterm infants. This retrospective cohort study included neonates born before 32 weeks of gestation at Seoul National University Hospital between 2013 and 2022. The primary outcome was moderate or severe bronchopulmonary dysplasia. We assessed both static perinatal risk factors and dynamic factors, such as respiratory support type, inspired oxygen concentration, and blood gas analysis results within the first 7 days. The model was developed using data from 546 infants born between 2013 and 2021, with internal validation on 75 infants born in 2022. External validation was based on 105 infants recruited at the Boramae Medical Center. The integrated prediction model, combining static and dynamic factors, showed superior predictive performance, with an area under the receiver operating characteristic curve (AUROC) of 0.841 in the development set, outperforming the static perinatal factor model. Internal validation confirmed the robustness of the integrated model (AUROC: 0.912 vs. 0.805, p\u2009<\u20090.0001). The performance was maintained in the external validation (AUROC: 0.814). Incorporating early respiratory support and blood gas analysis into predictive models substantially improved the accuracy of bronchopulmonary dysplasia prediction in preterm infants.",
+    "authors": [
+      "Ho Jung Choi",
+      "Garam Lee",
+      "Seung Han Shin",
+      "Seung Mi Lee",
+      "Hyung-Chul Lee",
+      "Jin A Sohn",
+      "Jin A Lee",
+      "Han-Suk Kim"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253571"
+  },
+  {
+    "title": "EBMGP: a deep learning model for genomic prediction based on Elastic Net feature selection and bidirectional encoder representations from transformer's embedding and multi-head attention pooling.",
+    "abstract": "Enhancing early selection through genomic estimated breeding values is pivotal for reducing generation intervals and accelerating breeding programs. Recently, deep learning (DL) approaches have gained prominence in genomic prediction (GP). Here, we introduce a novel DL framework for GP based on Elastic Net feature selection and bidirectional encoder representations from transformer's embedding and multi-head attention pooling (EBMGP). EBMGP applies Elastic Net for the selection of features, thereby diminishing the computational burden and bolstering the predictive accuracy. In EBMGP, SNPs are treated as \"words,\" and groups of adjacent SNPs with similar LD levels are considered \"sentences.\" By applying bidirectional encoder representations from transformers embeddings, this method models SNPs in a manner analogous to human language, capturing complex genetic interactions at both the \"word\" and \"sentence\" scales. This flexible representation seamlessly integrates into any DL network and demonstrates a marked improvement in predictive performance for EBMGP and SoyDNGP compared to the widely used one-hot representation. We propose multi-head attention pooling, which can adaptively assign weights to features while learning features from multiple subspaces through multi-heads for a high level of semantic understanding. In a comprehensive comparative analysis across four diverse plant and animal datasets, EBMGP outperformed competing models in 13 out of 16 tasks, achieving accuracy gains ranging from 0.74 to 9.55% over the second-best model. These results underscore EBMGP's robustness in genomic prediction and highlight its potential for deep learning applications in life sciences.",
+    "authors": [
+      "Lu Ji",
+      "Wei Hou",
+      "Heng Zhou",
+      "Liwen Xiong",
+      "Chunhai Liu",
+      "Zheming Yuan",
+      "Lanzhi Li"
+    ],
+    "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+    "year": "2025",
+    "pubmed_id": "40253568"
+  },
+  {
+    "title": "Integrative bioinformatics analysis reveals STAT1, ORC2, and GTF2B as critical biomarkers in lupus nephritis with Monkeypox virus infection.",
+    "abstract": "The monkeypox virus (MPXV) is currently spreading rapidly around the world, but the mechanisms by which it interacts with lupus nephritis (LN) are unknown. The aim of this study was to investigate the role and mechanism of lupus nephritis combined with monkeypox virus infection. The data comes from GEO and GeneCards.Through Limma and Weighted Gene Co-expression Network Analysis (WGCNA) analysis, differential expression genes (DEGs) and module genes were identified, and KEGG and GO enrichment analysis was carried out.In addition, a protein-protein interaction (PPI) network was constructed and LASSO regression was used to screen genes related to senescence. The diagnostic effectiveness was evaluated using a Nomogram and the receiver operating characteristic (ROC) curve and verified using GSE99967.Immune infiltration and gene set enrichment analysis (GSEA) Were also included in the study.In the end, miRNet was used to construct a miRNA-mRNA-TF network and screen targeted drugs through DGIdb. 5707 DEGs were identified in the lupus nephritis and 737 in the monkeypox data. WGCNA and Lasso regression analyses screened for three important targets (STAT1, ORC2, and GTF2B) .Predictive modeling and ROC of STAT1, ORC2 and GTF2B by Nomogram showed good diagnostic value .Immune infiltration analysis showed immune cell disorders and related pathway activation.The miRNA-mRNA-TF network covers 516 miRNAs and 15 transcription factors, and enrichment analysis shows that it plays an important role in senescence and inflammation.Potential Target Drugs Screened Include Guttiferone K And Silicon Phthalocyanine 4. This study identifies STAT1, ORC2, and GTF2B as key factors in cellular senescence and immune dysregulation associated with lupus nephritis and monkeypox infection, suggesting they may serve as important predictive targets.",
+    "authors": [
+      "Yaojun Wang",
+      "Qiang Li"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253531"
+  },
+  {
+    "title": "Identification of gene signatures associated with lactation for predicting prognosis and treatment response in breast cancer patients through machine learning.",
+    "abstract": "As a newly discovered histone modification, abnormal lactation has been found to be present in and contribute to the development of various cancers. The aim of this study was to investigate the potential role between lactylation and the prognosis of breast cancer patients. Lactylation-associated subtypes were obtained by unsupervised consensus clustering analysis. Lactylation-related gene signature (LRS) was constructed by 15 machine learning algorithms, and the relationship between LRS and tumor microenvironment (TME) as well as drug sensitivity was analyzed. In addition, the expression of genes in the LRS in different cells was explored by single-cell analysis and spatial transcriptome. The expression levels of genes in LRS in clinical tissues were verified by RT-PCR. Finally, the potential small-molecule compounds were analyzed by CMap, and the molecular docking model of proteins and small-molecule compounds was constructed. LRS was composed of 6 key genes (SHCBP1, SIM2, VGF, GABRQ, SUSD3, and CLIC6). BC patients in the high LRS group had a poorer prognosis and had a TME that promoted tumor progression. Single-cell analysis and spatial transcriptome revealed differential expression of the key genes in different cells. The results of PCR showed that SHCBP1, SIM2, VGF, GABRQ, and SUSD3 were up-regulated in the cancer tissues, whereas CLIC6 was down-regulated in the cancer tissues. Arachidonyltrifluoromethane, AH-6809, W-13, and clofibrate can be used as potential target drugs for SHCBP1, VGF, GABRQ, and SUSD3, respectively. The gene signature we constructed can well predict the prognosis as well as the treatment response of BC patients. In addition, our predicted small-molecule complexes provide an important reference for personalized treatment of breast cancer patients.",
+    "authors": [
+      "Jinfeng Zhao",
+      "Longpeng Li",
+      "Yaxin Wang",
+      "Jiayu Huo",
+      "Jirui Wang",
+      "Huiwen Xue",
+      "Yue Cai"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253524"
+  },
+  {
+    "title": "Utilizing artificial intelligence to predict and analyze socioeconomic, environmental, and healthcare factors driving tuberculosis globally.",
+    "abstract": "Tuberculosis (TB) is a major global health issue, contributing significantly to mortality and morbidity rates worldwide. Socioeconomic, environmental, and healthcare factors significantly impact TB trends. Therefore, we aimed to predict TB and identify the determinants of the disease using advanced artificial intelligence (AI). This study employed the advanced machine learning (ML) model, XGBoost (eXtreme gradient boosting), combined with XAI (eXplainable artificial intelligence) and spatial analysis to describe global TB incidence and mortality rates across 194 countries from 2000 to 2022. Spatial autocorrelation analysis utilizing Moran's I revealed geographical clusters and significant determinants affecting TB incidence. Treatment success rates and MDR-TB treatment initiation were identified as pivotal determinants of TB incidence. The correlation study revealed a substantial positive relationship between TB incidence in HIV-positive patients and overall TB incidence (r =\u20090.83). Confirmed cases of MDR-TB had the most significant impact on TB incidence (SHAP =\u20090.874). Additionally, air pollution had a notable impact on TB incidence (SHAP =\u20091.36). The XGBoost model demonstrated the best predictive performance for TB incidence and mortality, exhibiting the lowest RMSE (0.88), the highest R<sup>2</sup> (0.67), and Adjusted R<sup>2</sup> (0.65). This study highlights the potential of integrating XGBoost and XAI methodologies as a holistic framework for effectively tackling global tuberculosis incidence and mortality rates, as well as for the proficient application of advanced analytical techniques in public health.",
+    "authors": [
+      "Md Siddikur Rahman",
+      "Abu Bokkor Shiddik"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253515"
+  },
+  {
+    "title": "Automated assessment of simulated laparoscopic surgical skill performance using deep learning.",
+    "abstract": "Artificial intelligence (AI) has the potential to improve healthcare and patient safety and is currently being adopted across various fields of medicine and healthcare. AI and in particular computer vision (CV) are well suited to the analysis of minimally invasive surgical simulation videos for training and performance improvement. CV techniques have rapidly improved in recent years from accurately recognizing objects, instruments, and gestures to phases of surgery and more recently to remembering past surgical steps. Lack of labeled data is a particular problem in surgery considering its complexity, as human annotation and manual assessment are both expensive in time and cost, and in most cases rely on direct intervention of clinical expertise. In this study, we introduce a newly collected simulated Laparoscopic Surgical Performance Dataset (LSPD) specifically designed to address these challenges. Unlike existing datasets that focus on instrument tracking or anatomical structure recognition, the LSPD is tailored for evaluating simulated laparoscopic surgical skill performance at various expertise levels. We provide detailed statistical analyses to identify and compare poorly performed and well-executed operations across different skill levels (novice, trainee, expert) for three specific skills: stack, bands, and tower. We employ a 3-dimensional convolutional neural network (3DCNN) with a weakly-supervised approach to classify the experience levels of surgeons. Our results show that the 3DCNN effectively distinguishes between novices, trainees, and experts, achieving an F1 score of 0.91 and an AUC of 0.92. This study highlights the value of the LSPD dataset and demonstrates the potential of leveraging 3DCNN-based and weakly-supervised approaches to automate the evaluation of surgical performance, reducing reliance on manual expert annotation and assessments. These advancements contribute to improving surgical training and performance analysis.",
+    "authors": [
+      "David Power",
+      "Cathy Burke",
+      "Michael G Madden",
+      "Ihsan Ullah"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253514"
+  },
+  {
+    "title": "Application of machine learning in soil heavy metals pollution assessment in the southeastern Tibetan plateau.",
+    "abstract": "The Tibetan Plateau, a globally significant ecological region, is experiencing escalating pollution from heavy metals (HMs). This study applies a machine learning approach based on the self-organizing map hyper-clustering, alongside advanced methodologies such as Positive Matrix Factorization (PMF), Incremental Spatial Autocorrelation, and Bivariate Local Indicators of Spatial Association (BiLISA), to analyze the ecological risk of soil HMs in representative watersheds of the southeastern Tibetan Plateau, focusing on spatial pattern clustering, pollutant source identification, and interaction risk assessment. The results indicated higher HMs concentrations in the middle and downstream areas. A comprehensive ecological risk assessment integrating the Improved Potential Ecological Risk Index, Enrichment Factor, Contamination Factor, and Geo-accumulation Index identified Cd, Pb, and As as the primary pollutants of concern. By combining PMF with Mantel analysis, pollution was attributed to geological background, agricultural activities, traffic emissions, and atmospheric deposition. The BiLISA method revealed significant spatial interactions among HMs, with the composite pollution of As and Cd occupying the largest proportion in High (As)-High (Cd) aggregation zones, underscoring the need for integrated management strategies. This study offers novel insights into the spatial pollution patterns and source apportionment of soil HMs, providing an advanced analytical framework for their precise control and ecological restoration.",
+    "authors": [
+      "Yan Li",
+      "Yilong Yu",
+      "Shiyuan Ding",
+      "Wenjing Dai",
+      "Rongguang Shi",
+      "Gaoyang Cui",
+      "Xiaodong Li"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253497"
+  },
+  {
+    "title": "Integrative analysis of signaling and metabolic pathways, immune infiltration patterns, and machine learning-based diagnostic model construction in major depressive disorder.",
+    "abstract": "Major depressive disorder (MDD) is a multifactorial disorder involving genetic and environmental factors, with unclear pathogenesis. This study aims to explore the pathogenic pathway of MDD and its relationship with immune responses and to discover its potential targets by bioinformatics methods. We first applied gene set variation analysis (GSVA) and seven different immune infiltration algorithms to the GSE98793 dataset to determine the differences in signaling pathways, metabolic pathways, and immune cell infiltration between MDD patients and healthy controls. Differentially expressed genes between MDD patients and controls were obtained from five datasets (GSE98793, GSE32280, GSE38206, GSE39653, and GSE52790), and 113 machine learning methods were employed to construct MDD diagnostic models. Based on the constructed MDD diagnostic models, MDD patients were divided into high-risk and low-risk groups. GSVA and immune microenvironment analyses were conducted to investigate the differences between the two groups. Furthermore, potential drugs and therapeutic targets for the high-risk MDD group were explored to provide new insights and directions for the precise treatment of MDD. GSVA and immune infiltration results indicate that patients with MDD exhibit differences from normal individuals in various aspects, including biological processes, signaling pathways, metabolic processes, and immune cells. To investigate the functions and biological significance of differentially expressed genes in MDD patients, we performed GO and KEGG enrichment analyses on the differentially expressed genes from five databases (GSE98793, GSE32280, GSE38206, GSE39653, and GSE52790). By comparing the enrichment results across the five datasets, we found that the cell-killing signaling pathway was consistently present in the enriched signaling pathways of all datasets, suggesting that this pathway may play a crucial role in the pathogenesis of MDD. The random forest algorithm (AUC =\u20090.788) was selected as the optimal algorithm from 113 machine learning algorithms, leading to the development of a robust and predictive MDD algorithm, highlighting the important role of NPL in MDD. By dividing MDD into high and low-risk subgroups based on diagnostic model scores, enrichment pathways, and immunological results further demonstrated that high-risk MDD is associated with increased levels of reactive oxygen species, inflammation, and numbers of T cells and B cells. Through GSEA scoring, five upregulated pathways in the high-risk MDD group were identified, and multiple potential drugs such as Mibefradil, LY364947, ZLN005, STA- 5326, and vemurafenib were screened. Patients with MDD show differences in signaling pathways, metabolic pathways, and immune mechanisms. By constructing an MDD diagnostic model, we predicted the key genes of MDD and the characteristic pathways associated with a higher risk of MDD. This provides new insights for risk stratification identification and offers new perspectives for the clinical application of precision immunotherapy and drug development.",
+    "authors": [
+      "Lei Tang",
+      "Liling Wu",
+      "Mengqin Dai",
+      "Nian Liu",
+      "Lu Liu"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253457"
+  },
+  {
+    "title": "Diagnosis of early glaucoma likely combined with high myopia by integrating OCT thickness map and standard automated and Pulsar perimetries.",
+    "abstract": "Early-stage glaucoma diagnosis is crucial for preventing permanent structural damage and irreversible vision loss. While various machine-learning approaches have been developed for glaucoma diagnosis, only a few specifically address early-stage detection. Moreover, existing early-stage detection methods rely on unimodal information and exclude subjects with high myopia, which contradicts clinical practice and overlooks the adverse effect of high myopia on prediction performance. To develop a clinically practical tool, this study proposes a deep-learning-based, end-to-end early-stage glaucoma detection framework designed for a cohort likely with high myopia. This framework uniquely integrates functional information from visual field (VF) parameters of standard automated perimetry (SAP) and Pulsar perimetry (PP) with structural information derived from optical coherence tomography (OCT) thickness maps. It comprises three key components: 3D OCT ganglion cell complex (GCC) layer segmentation, thickness map generation, and early-stage glaucoma detection. Evaluated on 394 subjects using five-time, 10-fold cross-validation, the proposed system achieved a mean area under the receiver operating characteristic (ROC) curve of 0.887\u2009\u00b1\u20090.006, outperforming the Asaoka method without transfer learning and nine models based solely on VF parameters. Results further confirmed that incorporating SAP and PP parameters was essential for mitigating the adverse effects of high myopia.",
+    "authors": [
+      "Ai-Su Yang",
+      "Hong-Siang Wang",
+      "Te-Jung Li",
+      "Chin-Hsin Liu",
+      "Chung-Ming Chen"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253455"
+  },
+  {
+    "title": "A comprehensive and easy-to-use multi-domain multi-task medical imaging meta-dataset.",
+    "abstract": "While the field of medical image analysis has undergone a transformative shift with the integration of machine learning techniques, the main challenge of these techniques is often the scarcity of large, diverse, and well-annotated datasets. Medical images vary in format, size, and other parameters and therefore require extensive preprocessing and standardization, for usage in machine learning. Addressing these challenges, we introduce the Medical Imaging Meta-Dataset (MedIMeta), a novel multi-domain, multi-task meta-dataset. MedIMeta contains 19 medical imaging datasets spanning 10 different domains and encompassing 54 distinct medical tasks, all of which are standardized to the same format and readily usable in PyTorch or other ML frameworks. We perform a technical validation of MedIMeta, demonstrating its utility through fully supervised and cross-domain few-shot learning baselines.",
+    "authors": [
+      "Stefano Woerner",
+      "Arthur Jaques",
+      "Christian F Baumgartner"
+    ],
+    "journal": "Scientific data",
+    "year": "2025",
+    "pubmed_id": "40253434"
+  },
+  {
+    "title": "Microbiome data management in action workshop: Atlanta, GA, USA, June 12-13, 2024.",
+    "abstract": "Microbiome research is revolutionizing human and environmental health, but the value and reuse of microbiome data are significantly hampered by the limited development and adoption of data standards. While several ongoing efforts are aimed at improving microbiome data management, significant gaps still remain in terms of defining and promoting adoption of consensus standards for these datasets. The Strengthening the Organization and Reporting of Microbiome Studies (STORMS) guidelines for human microbiome research have been endorsed and successfully utilized by many research organizations, publishers, and funding agencies, and have been recognized as a consensus community standard. No equivalent effort has occurred for environmental, synthetic, and non-human host-associated microbiomes. To address this growing need within the microbiome research community, we convened the Microbiome Data Management in Action Workshop (June 12-13, 2024, in Atlanta, GA, USA), to bring together key decision makers in microbiome science including researchers, publishers, funders, and data repositories. The 50 attendees, representing the diverse and interdisciplinary nature of microbiome research, discussed recent progress and challenges, and brainstormed actionable recommendations and paths forward for coordinated environmental microbiome data management and the modifications necessary for the STORMS guidelines to be applied to environmental, non-human host, and synthetic microbiomes. The outcomes of this workshop will form the basis of a formalized data management roadmap to be implemented across the field. These best practices will drive scientific innovation now and in years to come as these data continue to be used not only in targeted reanalyses but in large-scale models and machine learning efforts.",
+    "authors": [
+      "Julia M Kelliher",
+      "Mashael Aljumaah",
+      "Sarah R Bordenstein",
+      "J Rodney Brister",
+      "Patrick S G Chain",
+      "Jose Pablo Dundore-Arias",
+      "Joanne B Emerson",
+      "Vanessa Moreira C Fernandes",
+      "Roberto Flores",
+      "Antonio Gonzalez",
+      "Zoe A Hansen",
+      "Eneida L Hatcher",
+      "Scott A Jackson",
+      "Christina A Kellogg",
+      "Ramana Madupu",
+      "Cassandra Maria Luz Miller",
+      "Chloe Mirzayi",
+      "Ahmed M Moustafa",
+      "Christopher Mungall",
+      "Aaron Oliver",
+      "Nonia Pariente",
+      "Jennifer Pett-Ridge",
+      "Sydne Record",
+      "Linta Reji",
+      "Anna-Louise Reysenbach",
+      "Virginia I Rich",
+      "Lorna Richardson",
+      "Lynn M Schriml",
+      "Reed S Shabman",
+      "Maria A Sierra",
+      "Matthew B Sullivan",
+      "Punithavathi Sundaramurthy",
+      "Katherine M Thibault",
+      "Luke R Thompson",
+      "Scott Tighe",
+      "Ethell Vereen",
+      "Emiley A Eloe-Fadrosh"
+    ],
+    "journal": "Environmental microbiome",
+    "year": "2025",
+    "pubmed_id": "40253432"
+  },
+  {
+    "title": "Explainable machine learning for predicting lung metastasis of colorectal cancer.",
+    "abstract": "Patients with lung metastasis of colorectal cancer typically have a poor prognosis. Therefore, establishing an effective screening and diagnosis model is paramount. Our study seeks to construct and verify a predictive model utilizing machine learning (ML) that can evaluate the risk of lung metastasis with newly diagnosed colorectal cancer (CRC) using Shapley Additive exPlanations (SHAP). Using the Surveillance, Epidemiology, and End Results database, 39,674 were extracted for model development, all of whom had been pathologically diagnosed with CRC. The data spans from 2010 to 2015. Our study has constructed seven ML algorithms based on the data mentioned above, including Random Forest (RF), Decision Tree, Support Vector Machine, Naive Bayes, K-Nearest Neighbor, eXtreme Gradient Boosting, and Gradient Boosting Machine. We selected the best algorithm and visualized it using SHAP. We conducted a validation of the model utilizing data from a Chinese hospital to assess its practicality. Based on this, we have constructed an open web calculator. 39,674 patient data were included in our study, among whom 1369 (3.5%) presented with distant lung metastasis. The Random Forest (RF) algorithm demonstrated the highest predictive capability within the internal test set (AUC of 0.980, AUPR of 0.941). Furthermore, the random forest algorithm also exhibited excellent performance in external validation sets. Meanwhile, we have also established a web calculator ( http://121.43.117.60:8003/ ). The RF algorithm has demonstrated excellent predictive performance. It can assist clinicians in devising more personalized treatment plans.",
+    "authors": [
+      "Zhentian Guo",
+      "Zongming Zhang",
+      "Limin Liu",
+      "Yue Zhao",
+      "Zhuo Liu",
+      "Chong Zhang",
+      "Hui Qi",
+      "Jinqiu Feng",
+      "Peijie Yao"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253427"
+  },
+  {
+    "title": "Efficient hybrid heuristic adopted deep learning framework for diagnosing breast cancer using thermography images.",
+    "abstract": "The most dangerous form of cancer is breast cancer. This disease is life-threatening because of its aggressive nature and high death rates. Therefore, early discovery increases the patient's survival. Mammography has recently been recommended as diagnosis technique. Mammography, is expensive and exposure the person to radioactivity. Thermography is a less invasive and affordable technique that is becoming increasingly popular. Considering this, a recent deep learning-based breast cancer diagnosis approach is executed by thermography images. Initially, thermography images are chosen from online sources. The collected thermography images are being preprocessed by Contrast Limited Adaptive Histogram Equalization (CLAHE) and contrasting enhancement methods to improve the quality and brightness of the images. Then, the optimal binary thresholding is done to segment the preprocessed images, where optimized the thresholding value using developed Rock Hyraxes Dandelion Algorithm Optimization (RHDAO). A newly implemented deep learning structure StackVRDNet is used for further processing breast cancer diagnosing using thermography images. The segmented images are fed to the StackVRDNet framework, where the Visual Geometry Group (VGG16), Resnet, and DenseNet are employed for constructing this model. The relevant features are extracted usingVGG16, Resnet, and DenseNet, and then obtain stacked weighted feature pool from the extracted features, where the weight optimization is done with the help of RHDAO. The final classification is performed using StackVRDNet, and the diagnosis results are obtained at the final layer of VGG16, Resnet, and DenseNet. A higher scoring method is rated for ensuring final diagnosis results. Here, the parameters present within the VGG16, Resnet, and DenseNet are optimized via the RHDAO to improve the diagnosis results. The simulation outcomes of the developed model achieve 97.05% and 86.86% in terms of accuracy and precision, respectively. The effectiveness of the designed methd is being analyzed via the conventional breast cancer diagnosis models in terms of various performance measures.",
+    "authors": [
+      "Ahmad Y A Bani Ahmad",
+      "Jafar A Alzubi",
+      "Manimaran Vasanthan",
+      "Suresh Babu Kondaveeti",
+      "J Shreyas",
+      "Thella Preethi Priyanka"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253418"
+  },
+  {
+    "title": "Identification and validation of a novel machine learning model for predicting severe pelvic endometriosis: A retrospective study.",
+    "abstract": "This study aimed to explore potential risk factors for severe endometriosis and to develop a model to predict the risk of severe endometriosis. A total of 308 patients with endometriosis were analyzed. Least absolute shrinkage and selection operator (LASSO) was performed to identify the potential risk factors for severe endometriosis. Then, we used seven machine learning (ML) algorithms to construct the predictive models. Finally, SHapley Additive exPlanations (SHAP) interpretation was performed to evaluate the contributions of each factor to risk prediction. About 59.2% (183/308) of patients were diagnosed with severe endometriosis. The random forest (RF) model performed best in discriminative ability among the seven ML models, achieving an area under the curve (AUC) of 0.744. After reducing features according to feature importance rank, an explainable final RF model was established with six features. From the SHAP map, we found that the negative sliding sign had the greatest impact on the diagnostic performance of the RF model. This study provided a personalized risk assessment for the development of severe endometriosis, which may enable early identification of high-risk patients, facilitating timely intervention and optimized treatment strategies.",
+    "authors": [
+      "Siqi Cao",
+      "Xingzhe Li",
+      "Xin Zheng",
+      "Jiaxin Zhang",
+      "Ziyao Ji",
+      "Yanjun Liu"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253412"
+  },
+  {
+    "title": "The EUROCROPSML time series benchmark dataset for few-shot crop type classification in Europe.",
+    "abstract": "We introduce EUROCROPSML, an analysis-ready remote sensing dataset based on the open-source EUROCROPS collection, for machine learning (ML) benchmarking of time series crop type classification in Europe. It is the first time-resolved remote sensing dataset designed to benchmark transnational few-shot crop type classification algorithms that supports advancements in algorithmic development and research comparability. It comprises 706683 multi-class labeled data points across 176 crop classes. Each data point features a time series of per-parcel median pixel values extracted from Sentinel-2 L1C data and precise geospatial coordinates. EUROCROPSML is publicly available on Zenodo.",
+    "authors": [
+      "Joana Reuss",
+      "Jan Macdonald",
+      "Simon Becker",
+      "Lorenz Richter",
+      "Marco K\u00f6rner"
+    ],
+    "journal": "Scientific data",
+    "year": "2025",
+    "pubmed_id": "40253409"
+  },
+  {
+    "title": "Deep learning unlocks the true potential of organ donation after circulatory death with accurate prediction of time-to-death.",
+    "abstract": "Increasing the number of organ donations after circulatory death\u00a0(DCD) has been identified as one of the most important ways of addressing the ongoing organ shortage. While recent technological advances in organ transplantation have increased their success rate, a substantial challenge in increasing the number of DCD donations resides in the uncertainty regarding the timing of cardiac death after terminal extubation, impacting the risk of prolonged ischemic organ injury, and negatively affecting post-transplant outcomes. In this study, we trained and externally validated an ODE-RNN model, which combines recurrent neural network with neural ordinary equations and excels in processing irregularly-sampled time series data. The model is designed to predict time-to-death following terminal extubation in the intensive care unit (ICU) using the history of clinical observations. Our model was trained on a cohort of 3,238 patients from Yale New Haven Hospital, and validated on an external cohort of 1,908 patients from six hospitals across Connecticut. The model achieved accuracies of [Formula: see text] and [Formula: see text] for predicting whether death would occur in the first 30 and 60 minutes, respectively, with a calibration error of [Formula: see text]. Heart rate, respiratory rate, mean arterial blood pressure\u00a0(MAP), oxygen saturation\u00a0(SpO2), and Glasgow Coma Scale\u00a0(GCS) scores were identified as the most important predictors. Surpassing existing clinical scores, our model sets the stage for reduced organ acquisition costs and improved post-transplant outcomes.",
+    "authors": [
+      "Xingzhi Sun",
+      "Edward De Brouwer",
+      "Chen Liu",
+      "Smita Krishnaswamy",
+      "Ramesh Batra"
+    ],
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pubmed_id": "40253393"
+  },
+  {
+    "title": "A multi-subject and multi-session EEG dataset for modelling human visual object recognition.",
+    "abstract": "We share a multi-subject and multi-session (MSS) dataset with 122-channel electroencephalographic (EEG) signals collected from 32 human participants. The data was obtained during serial visual presentation experiments in two paradigms. Dataset of first paradigm consists of around 800,000 trials presenting stimulus sequences at 5 Hz. Dataset of second paradigm comprises around 40,000 trials displaying each image for 1 second. Each participant completed between 1 to 5 sessions on different days, and each session lasted for approximately 1.5 hours of EEG recording. The stimulus set used in the experiments included 10,000 images, with 500 images per class, manually selected from PASCAL and ImageNet image databases. The MSS dataset can be useful for various studies, including but not limited to (1) exploring the characteristics of EEG visual response, (2) comparing the differences in EEG response of different visual paradigms, and (3) designing machine learning algorithms for cross-subject and cross-session brain-computer interfaces (BCIs) using EEG data from multiple subjects and sessions.",
+    "authors": [
+      "Shuning Xue",
+      "Bu Jin",
+      "Jie Jiang",
+      "Longteng Guo",
+      "Jin Zhou",
+      "Changyong Wang",
+      "Jing Liu"
+    ],
+    "journal": "Scientific data",
+    "year": "2025",
+    "pubmed_id": "40253381"
+  },
+  {
+    "title": "Mesoscale brain-wide fluctuation analysis: revealing ketamine's rapid antidepressant across multiple brain regions.",
+    "abstract": "Depression has been linked to cortico-limbic brain regions, and ketamine is known for its rapid antidepressant effects. However, how these brain regions encode depression collaboratively and how ketamine regulates these regions to exert its prompt antidepressant effects through mesoscale brain-wide fluctuations remain elusive. In this study, we used a multidisciplinary approach, including multi-region in vivo recordings in mice, chronic social defeat stress (CSDS), and machine learning, to construct a Mesoscale Brain-Wide Fluctuation Analysis platform (MBFA-platform). This platform analyzes the mesoscale brain-wide fluctuations of multiple brain regions from the perspective of local field potential oscillations and network dynamics. The decoder results demonstrate that our MBFA platform can accurately classify the Control/CSDS and ketamine/saline-treated groups based on neural oscillation and network activities among the eight brain regions. We found that multiple-region LFPs patterns are disrupted in CSDS-induced social avoidance, with the basolateral amygdala playing a key role. Ketamine primarily exerts the compensatory effects through network dynamics, contributing to its rapid antidepressant effect. These findings highlight the MBFA platform as an interdisciplinary tool for revealing mesoscale brain-wide fluctuations underlying complex emotional pathologies, providing insights into the etiology of psychiatry. Furthermore, the platform's evaluation capabilities present a novel approach for psychiatric therapeutic interventions.",
+    "authors": [
+      "Qingying Cao",
+      "Xiaojun Xu",
+      "Xinyu Wang",
+      "Fengkai He",
+      "Yichao Lin",
+      "Dongyong Guo",
+      "Wenwen Bai",
+      "Baolin Guo",
+      "Xuyuan Zheng",
+      "Tiaotiao Liu"
+    ],
+    "journal": "Translational psychiatry",
+    "year": "2025",
+    "pubmed_id": "40253356"
+  },
+  {
+    "title": "The structural and functional dynamics of BiP and Grp94: opportunities for therapeutic discovery.",
+    "abstract": "Binding immunoglobulin protein (BiP) and glucose-regulated protein 94 (Grp94) are endoplasmic reticulum (ER)-localized molecular chaperones that ensure proper protein folding and maintain protein homeostasis. However, overexpression of these chaperones during ER stress can contribute to disease progression in numerous pathologies. Although these chaperones represent promising therapeutic targets, their inhibition has been challenged by gaps in understanding of targetable chaperone features and their complex biology. To overcome these challenges, a new assay has been developed to selectively target BiP, and compounds that exploit subtle conformational changes of Grp94 have been designed. This review summarizes recent advances in elucidating structural and functional dynamics of BiP and Grp94. We explore leveraging this information to develop novel therapeutic interventions. Finally, given the recent advances in computing, we discuss how machine learning methods can be used to accelerate drug discovery efforts.",
+    "authors": [
+      "Ikponwmosa Obaseki",
+      "Chioma C Ndolo",
+      "Ayodeji A Adedeji",
+      "Hannah O Popoola",
+      "Andrea N Kravats"
+    ],
+    "journal": "Trends in pharmacological sciences",
+    "year": "2025",
+    "pubmed_id": "40253284"
+  },
+  {
+    "title": "Automatic Classification of Strain in the Singing Voice Using Machine Learning.",
+    "abstract": "Classifying strain in the singing voice can help protect professional singers from vocal overuse and support singing training. This study investigates whether machine learning can automatically classify singing voices into two levels of perceived strain. The singing samples represent two genres: classical and contemporary commercial music (CCM).",
+    "authors": [
+      "Yuanyuan Liu",
+      "Mittapalle Kiran Reddy",
+      "Madhu Keerthana Yagnavajjula",
+      "Okko R\u00e4s\u00e4nen",
+      "Paavo Alku",
+      "Tero Ik\u00e4valko",
+      "Tua Hakanp\u00e4\u00e4",
+      "Aleksi \u00d6yry",
+      "Anne-Maria Laukkanen"
+    ],
+    "journal": "Journal of voice : official journal of the Voice Foundation",
+    "year": "2025",
+    "pubmed_id": "40253260"
+  }
+]
