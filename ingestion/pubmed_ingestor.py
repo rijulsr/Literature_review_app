@@ -100,7 +100,26 @@ def mentions_statistics(text):
     return bool(pattern.search(text))
 
 # === 5. Main Function ===
+# === NEW: Get Total Available Results ===
+def get_total_result_count(query):
+    params = {
+        "db": "pubmed",
+        "term": query,
+        "retmode": "json",
+        "rettype": "count"
+    }
+    response = requests.get(f"{BASE_URL}/esearch.fcgi", params=params)
+    response.raise_for_status()
+    data = response.json()
+    return int(data["esearchresult"]["count"])
+
+# === Updated Main Function ===
 def run(query, max_results):
+    if max_results == -1:
+        print(f"🔍 Getting total available results for: {query}")
+        max_results = get_total_result_count(query)
+        print(f"✅ Total matching articles: {max_results}")
+
     print(f"🔎 Searching PubMed for: {query}")
     pmids = search_pubmed(query, max_results=max_results)
     print(f"✅ Retrieved {len(pmids)} PMIDs")
@@ -117,12 +136,18 @@ def run(query, max_results):
 
     print("✅ Done. Filtered results saved to data/raw/pubmed_filtered.json")
 
-# === 6. CLI ===
+# === Updated CLI ===
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--query", required=True, help="Search query for PubMed")
-    parser.add_argument("--max_results", type=int, default=100, help="Max number of articles to retrieve")
+    parser.add_argument(
+        "--max_results", 
+        type=int, 
+        default=100, 
+        help="Number of articles to retrieve (use -1 for all available)"
+    )
     args = parser.parse_args()
 
     run(args.query, args.max_results)
+
 
