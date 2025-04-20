@@ -1,4 +1,4 @@
-###Literature Review App
+### Literature Review App
 
 This is an AI-powered tool that searches PubMed (and soon Semantic Scholar + arXiv) for medical literature and performs deep summarization using LLMs — optimized for finding statistical methods in medical research.
 
@@ -12,11 +12,11 @@ Features
 
 ✅ Clean architecture for expansion to more sources
 
-##Usage
+## Usage
 ```
 python main.py --query "statistical analysis in pancreatic cancer" --max_results 100
 ```
-##Setup
+## Setup
 
 1. Clone the repository
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 python main.py --query "statistical analysis in pancreatic cancer" --max_results 100
 ```
-#You should see:
+# You should see:
 
 A list of relevant PubMed articles
 
