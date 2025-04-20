@@ -1,0 +1,13 @@
+This is an AI-powered tool that searches PubMed (and soon Semantic Scholar + arXiv) for medical literature and performs deep summarization using LLMs — optimized for finding statistical methods in medical research.
+
+## Features
+
+- 🔎 Query PubMed for high-volume article results
+- 🧪 Filter for studies using statistical analysis
+- 🧠 LLM-powered summarization of relevant findings
+- ✅ Clean architecture for expansion to more sources
+
+## Usage
+
+```bash
+python main.py --query "statistical analysis in pancreatic cancer" --max_results 100
