@@ -1,4 +1,0 @@
-biopython
-tqdm
-requests
-

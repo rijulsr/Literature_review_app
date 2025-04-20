@@ -1,0 +1,5 @@
+biopython
+requests
+openai
+tqdm
+python-dotenv
