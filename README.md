@@ -14,14 +14,14 @@ Features
 
 ## Usage
 ```
-python main.py --query "statistical analysis in pancreatic cancer" --max_results 100
+python main.py --query "machine learning" --max_results 100
 ```
 ## Setup
 
 1. Clone the repository
 
 ```
-git clone https://github.com/YourUsername/Literature_review_app.git
+git clone https://github.com/Errornautical/Literature_review_app.git
 cd Literature_review_app
 ```
 
