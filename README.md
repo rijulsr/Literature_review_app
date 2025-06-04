@@ -1,6 +1,6 @@
 ### Literature Review App
 
-This is an AI-powered tool that searches PubMed (still) (and soon Semantic Scholar + arXiv) for medical literature and performs deep summarization using LLMs — optimized for finding statistical methods in medical research.
+This is an AI-powered tool that searches PubMed (and soon Semantic Scholar + arXiv) for medical literature and performs deep summarization using LLMs — optimized for finding statistical methods in medical research.
 
 Features
 
