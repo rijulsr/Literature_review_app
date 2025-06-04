@@ -10,4 +10,4 @@ Features
 
 🧠 LLM-powered summarization of relevant findings
 
-✅ Clean architecture for expansion to more sources (doubtful)
+✅ Clean architecture for expansion to more sources (doubtful) (not there yet)
