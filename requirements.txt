@@ -1,6 +1,14 @@
-fastapi==0.100.0
-uvicorn==0.23.0
-biopython==1.81
-pydantic==2.1.1
+# --- Core app deps ---
+fastapi==0.111.0          # web API
+uvicorn[standard]==0.29.0 # ASGI server
+pydantic==2.1.1           # FastAPI schema model
+openai==0.28.0            # LLM client  (upgrade to 1.x later if desired)
+requests==2.31.0
 tqdm==4.65.0
-openai==0.28.0
+python-dotenv==1.0.1
+biopython==1.81
+
+# --- If you plan async task queue later ---
+# celery==5.3.6
+# redis==5.0.4
+
